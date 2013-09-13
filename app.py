@@ -10,7 +10,7 @@ def index():
     """Respond to incoming requests."""
     return render_template('index.html')
 
-@app.route('/tellme', methods=['POST', 'GET']
+@app.route('/tellme', methods=['POST', 'GET'])
 def generate():
     return render_template('generated.html', idea=idea_generator.generate_idea())
 
