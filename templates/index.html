@@ -3,7 +3,7 @@
     <head>
         <meta http-equiv="Content-type" content="text/html; charset=utf-8">
 
-        <title>Git Rumble</title>
+        <title>Tell Me What To Build</title>
 
         <link rel="stylesheet" href="static/css/bootstrap.css" type="text/css" media="screen" title="master" charset="utf-8">
         <link rel="stylesheet" href="static/css/style.css" type="text/css">
@@ -12,10 +12,9 @@
     <body>
         {% block content %}
         <div class="container">
-
             <div class="row" id="options" align="center">
-                <div id='create_session_forms' class='custom-hero'>
-                    <form method="POST" action="/create">
+                <div id='create_session_forms' class='custom-hero span6'>
+                    <form method="POST" action="/tellme">
                         <h2> I will tell you what to work on, and leave the implementation details up to you</h2>
                         <button type='submit' class='button'>Tell me</button>
                     </form>
@@ -30,7 +29,6 @@
                 <a href="https://github.com/sagnew/WhatShouldIBuild">View source on Github</a>
                 </p>
             </div>
-
         </div>
         {% endblock %}
     </body>
