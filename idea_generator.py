@@ -52,5 +52,3 @@ def generate_idea():
         return choice(phrasings) + choice(companies) + ' for ' + choice(groups)
     elif option == 2:
         return choice(phrasings) + choice(companies) + ' for ' + choice(companies)
-
-print generate_idea()
