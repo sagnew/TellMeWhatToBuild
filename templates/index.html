@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+        <title>Git Rumble</title>
+
+        <link rel="stylesheet" href="static/css/bootstrap.css" type="text/css" media="screen" title="master" charset="utf-8">
+        <link rel="stylesheet" href="static/css/style.css" type="text/css">
+    </head>
+
+    <body>
+        {% block content %}
+        <div class="container">
+
+            <div class="row" id="options" align="center">
+                <div id='create_session_forms' class='custom-hero'>
+                    <form method="POST" action="/create">
+                        <h2> I will tell you what to work on, and leave the implementation details up to you</h2>
+                        <button type='submit' class='button'>Tell me</button>
+                    </form>
+                </div>
+            </div>
+
+            <br>
+            <div class="row" id="credits" align="center">
+                <p>
+                By <a href="http://github.com/sagnew">Sam Agnew</a>
+                <br>
+                <a href="https://github.com/sagnew/WhatShouldIBuild">View source on Github</a>
+                </p>
+            </div>
+
+        </div>
+        {% endblock %}
+    </body>
+</html>
