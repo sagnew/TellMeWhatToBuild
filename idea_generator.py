@@ -18,7 +18,7 @@ types_of_apps = ['a social network', 'a dating website', 'a video game', 'a prod
     'a command line utility', 'dotfiles', 'an irc chat client', 'a navigation app',
     'a specialized web browser', 'a new operating system', 'a calendar app', 'a banking utility',
     'a black market', 'an advertisement system', 'a web comic', 'a content management system',
-    'ad tracking', 'AB testing']
+    'ad tracking', 'AB testing', 'a marketplace']
 
 companies = ['Facebook', 'YouTube', 'OK Cupid', 'Twitter', 'Tumblr', 'Google',
         'Stumble Upon', 'PayPal', 'Dropbox', 'LinkedIn', 'SoundCloud', 'eBay',
