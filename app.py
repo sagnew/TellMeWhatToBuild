@@ -1,6 +1,5 @@
 import os
 from flask import Flask, render_template, request, redirect, session
-from constants import CONSUMER_KEY, CONSUMER_SECRET, APP_SECRET_KEY
 
 
 app = Flask(__name__)
