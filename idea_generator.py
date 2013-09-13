@@ -17,7 +17,7 @@ types_of_apps = ['a social network', 'a dating website', 'a video game', 'a prod
     'a vim plugin', 'an emacs extension', 'an IDE text editor', 'a game similar to 20 questions',
     'a command line utility', 'dotfiles', 'an irc chat client', 'a navigation app',
     'a specialized web browser', 'a new operating system', 'a calendar app', 'a banking utility',
-    'a black market', 'an advertisement system', 'a web comic', 'a content management system',
+    'a black market', 'an advertisement system', 'a content management system',
     'ad tracking', 'AB testing', 'a marketplace']
 
 companies = ['Facebook', 'YouTube', 'OK Cupid', 'Twitter', 'Tumblr', 'Google',
@@ -29,20 +29,20 @@ companies = ['Facebook', 'YouTube', 'OK Cupid', 'Twitter', 'Tumblr', 'Google',
         'IMDB', 'Reddit', '4chan']
 
 groups = ['old people', 'college students', 'musicians', 'pirates', 'ninjas', 'sex offenders',
-        'metalheads', 'punks', 'neighborhoods', 'hipsters', 'hackers', 'teenagers',
+        'metalheads', 'punks', 'neighborhoods', 'hipsters', 'hackers',
         'sports fans', 'women', 'men', 'animals', 'animal lovers', 'monks',
         'some arbitrary religious group', 'bands', 'samurai', 'anime fans',
         'old school video game enthusiasts', 'businessmen', 'scam artists',
-        'escaped convicts', 'geniuses', 'sea captains', 'assasins', 'ideas',
+        'escaped convicts', 'sea captains', 'assasins', 'ideas',
         'organized crime syndicates', 'alcoholics', 'artists', 'scientists',
         'military officers', 'CEOs', 'rich people', 'poor people', 'the homeless',
         'startup companies', 'writers', 'poets', 'storytelling', 'truck drivers', 'bus drivers'
         'public transit', 'travelers', 'fortune tellers', 'hikers', 'bikers', 'skateboarders',
         'MMORPG players', 'insomniacs', 'lumberjacks', 'foreign immigrants',
         'left handed people', 'the obese', 'people with terminal illnesses',
-        'people who are lactose intolerant', 'preteen girls', 'bronies', 'potheads',
-        'hackathons', 'parents', 'jazz lovers', 'beatniks', 'bohemians', 'frat bros',
-        'parties', 'events', 'vikings', 'furries']
+        'people who are lactose intolerant', 'potheads',
+        'hackathons', 'parents', 'jazz lovers', 'frat parties',
+        'parties', 'events', 'vikings']
 
 def generate_idea():
     option = randrange(0, 2, 1)
@@ -52,3 +52,4 @@ def generate_idea():
         return choice(phrasings) + choice(companies) + ' for ' + choice(groups)
     elif option == 2:
         return choice(phrasings) + choice(companies) + ' for ' + choice(companies)
+print generate_idea()
