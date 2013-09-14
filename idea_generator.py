@@ -26,7 +26,7 @@ companies = ['Facebook', 'YouTube', 'OK Cupid', 'Twitter', 'Tumblr', 'Google',
         'Vine', 'Klout', 'Bang With Friends', 'Last.fm', 'Code Academy', 'Snapchat',
         'Foursquare', 'Yelp', 'Pandora', 'Grub Hub', 'Groupon', 'Airbnb', 'Spotify',
         'Tinder', 'Google Maps', 'Groupme', 'Nextbus', 'Trip Advisor', 'Siri',
-        'IMDB', 'Reddit', '4chan']
+       'IMDB', 'Reddit', '4chan']
 
 groups = ['old people', 'college students', 'musicians', 'pirates', 'ninjas', 'sex offenders',
         'metalheads', 'punks', 'neighborhoods', 'hipsters', 'hackers',
