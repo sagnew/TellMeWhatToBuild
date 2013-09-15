@@ -12,9 +12,8 @@
         {% block content %}
         <div class="container">
             <div class="row" id="options" align="center">
-                <div id='create_session_forms' class='custom-hero span6'>
+                <div id='create_session_forms' class='span6 offset3'>
                     <form method="POST" action="/tellme">
-                        <h2> I will tell you what to work on, and leave the implementation details up to you</h2>
                         <div class="row" id="idea" align="center">
                             <h2>{{ idea }}</h2>
                         </div>
@@ -23,16 +22,6 @@
                         </div>
                     </form>
                 </div>
-            </div>
-
-
-            <br>
-            <div class="row" id="credits" align="center">
-                <p>
-                By <a href="http://github.com/sagnew">Sam Agnew</a>
-                <br>
-                <a href="https://github.com/sagnew/WhatShouldIBuild">View source on Github</a>
-                </p>
             </div>
         </div>
         {% endblock %}
