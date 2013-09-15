@@ -1,0 +1,72 @@
+body{
+    background-image:url('/static/imgs/pattern.png');
+}
+
+.custom-hero{
+    padding: 20px;
+    border-radius:20px;
+    background:rgba(0, 0, 0, 0.2);
+    position:relative;
+}
+
+p{
+    color:white;
+}
+
+h2{
+    color:white;
+}
+
+h3{
+    color:white;
+}
+
+h4{
+    color:white;
+}
+
+.prompt{
+    margin-top: 10px;
+    margin-bottom 10px;
+    padding: 10px;
+    position:relative;
+}
+
+#logodiv{
+    margin-top: 10px;
+    margin-bottom 10px;
+    padding: 10px;
+    position:relative;
+}
+
+.button {
+    border-top: 1px solid #ff0000;
+    background: #e34444;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f70000), to(#e34444));
+    background: -webkit-linear-gradient(top, #f70000, #e34444);
+    background: -moz-linear-gradient(top, #f70000, #e34444);
+    background: -ms-linear-gradient(top, #f70000, #e34444);
+    background: -o-linear-gradient(top, #f70000, #e34444);
+    padding: 7.5px 15px;
+    -webkit-border-radius: 31px;
+    -moz-border-radius: 31px;
+    border-radius: 31px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    font-size: 19px;
+    font-family: Georgia, Serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.button:hover {
+    border-top-color: #ff4747;
+    background: #ff4747;
+    color: #ffffff;
+}
+.button:active {
+    border-top-color: #fa0a0a;
+    background: #fa0a0a;
+}
