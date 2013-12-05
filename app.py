@@ -12,7 +12,7 @@ def index():
 
 @app.route('/tellme', methods=['POST', 'GET'])
 def generate():
-    return render_template('generated.html', idea=idea_generator.generate_idea())
+    return idea_generator.generate_idea()
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
