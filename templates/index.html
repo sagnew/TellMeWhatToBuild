@@ -15,7 +15,9 @@
             <div class="row" id="options" align="center">
                 <div id='create_session_forms' class='span6 offset3'>
                     <form method="POST" action="/tellme">
-                        <h2> I will tell you what to work on, and leave the implementation details up to you</h2>
+                        <div id="display">
+                            <h2> I will tell you what to work on, and leave the implementation details up to you</h2>
+                        </div>
                         <button type='submit' class='button'>Tell me</button>
                     </form>
                 </div>
@@ -24,5 +26,7 @@
             <br>
         </div>
         {% endblock %}
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <script type="text/javascript" src="static/client.js"></script>
     </body>
 </html>
